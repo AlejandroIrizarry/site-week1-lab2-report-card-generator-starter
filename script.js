@@ -60,6 +60,19 @@ const gpaPointsLookup = {
  */
 const dropdownEl = document.querySelector(".dropdown")
 // ADD more query selectors here
+const name = document.querySelector("#student-name")
+const advisor = document.querySelector("#student-advisor")
+const major = document.querySelector("#student-major")
+const grade = document.querySelector("#student-grade-level")
+const graduationYear = document.querySelector("#student-graduation-year")
+const image = document.querySelector("#student-image")
+const semesterDiv = document.querySelector(".semester-dropdown")
+const semesterBut = document.querySelector(".dropdown-button")
+const semesterLab = document.querySelector(".dropdown-label")
+const semesterFall = document.querySelector("#fall-semester")
+const semesterSpring = document.querySelector("#spring-semester")
+const semesterWinter = document.querySelector("#winter-term")
+const reportCardTable = document.querySelector("#report-card-table")
 
 /**
  * SOLUTIONS FOR STUDENT INFO DOM UPDATES
