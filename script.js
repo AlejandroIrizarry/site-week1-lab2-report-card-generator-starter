@@ -221,7 +221,7 @@ function updateReportCard(reportCardTableElement, currentSemester) {
   semesterCourses.forEach((student, index) => {
     addCourseRowToReportCard(reportCardTableElement, student, index)
   })
-
+ 
   }
 
 
